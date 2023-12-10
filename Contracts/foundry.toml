@@ -1,0 +1,9 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+
+
+[etherscan]
+zkevm = { key = "K3TYI3RYK1GGUG2CXBZVYAP62668S4XX3P", url = "https://api-testnet-zkevm.polygonscan.com/api" }
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config

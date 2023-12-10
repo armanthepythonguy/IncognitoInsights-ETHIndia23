@@ -1,0 +1,103 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "src",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "src/Ecdsa.sol": {
+      "lastModificationDate": 1702144097634,
+      "contentHash": "49510064b1bfe0b945ef228d3f23d295",
+      "sourceName": "src/Ecdsa.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.4",
+      "artifacts": {
+        "BaseUltraVerifier": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Ecdsa.sol/BaseUltraVerifier.json"
+        },
+        "UltraVerificationKey": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Ecdsa.sol/UltraVerificationKey.json"
+        },
+        "UltraVerifier": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Ecdsa.sol/UltraVerifier.json"
+        }
+      }
+    },
+    "src/IncognitoInsight.sol": {
+      "lastModificationDate": 1702144088490,
+      "contentHash": "84a120a8d99a24b0ae16feae7a64ce90",
+      "sourceName": "src/IncognitoInsight.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/Ecdsa.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IncognitoInsight": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "IncognitoInsight.sol/IncognitoInsight.json"
+        }
+      }
+    }
+  }
+}
