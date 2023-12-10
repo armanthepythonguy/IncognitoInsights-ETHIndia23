@@ -1,0 +1,186 @@
+.App{
+  background-color: bisque;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.heading-main{
+  font-weight:700;
+  font-family:'Kalnia', serif;
+  color:black;
+   box-shadow:4px 6px 4px 6px black;
+   padding:10px;
+   text-align: center;
+}
+.kySfEg{
+  font-weight:700 !important;
+  font-family:'Kalnia', serif !important;
+  color:black !important;
+}
+.TYujX{
+  font-weight:700 !important;
+  font-family:'Kalnia', serif !important;
+}
+
+.datyUz{
+  color:white !important;
+  font-family: 'Kalnia', serif !important;
+}
+.iEAtBj{
+  color:white !important;
+  font-family: 'Kalnia', serif !important;
+}
+.bVJvrO{
+  box-shadow: 4px 6px 4px 6px black !important;
+}
+.jEBPbg {
+  color:white !important;
+}
+.heading-nodata{
+  font-weight:700;
+  font-family:'Kalnia', serif;
+  color:black;
+   padding:10px;
+   text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main-detail-header{
+  padding: 2%;
+}
+.nav-container{
+  padding-bottom: 2%;
+}
+
+/* .private-container{
+width:inherit;
+padding:3%;
+border: 0.5px solid #E69D72;
+scrollbar-width: thin;
+overflow-y: auto;
+max-height: 500px;
+} */
+
+.private-container{
+  width:inherit;
+  padding:3%;
+  border: 0.5px solid #282c34;
+  box-shadow:  2px 2px 2px 2px black;
+  scrollbar-width: thin;
+  overflow-y: auto;
+  max-height: 400px;
+  }
+
+  .private-container-about{
+    width:inherit;
+    
+    max-height: 400px;
+    }
+
+.verify-content{
+  font-size: large;
+  color:black;
+  padding-bottom: 1%;
+}
+.verify-content-flex{
+  font-size: medium;
+  color:black;
+  display:flex;
+  flex-direction: column;
+  padding-top: 1%;
+}
+
+.verify-content-flex-inner{
+  font-size: medium;
+  color:black;
+  display:flex;
+  flex-direction: column;
+  padding-left: 1%;
+  padding: 2%;
+  width: 350px;
+}
+
+.content-container{
+  border: 0.5px solid black;
+  box-shadow: 6px 6px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  height:180px;
+}
+
+.ipfs .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: #555;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.ipfs:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 16px; }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.10),inset 0 -1px 0 rgba(0,0,0,0.07); }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
